@@ -26,9 +26,9 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("🌸")==0 || body.indexOf("🤍")==0 || body.indexOf("❤️")==0 || body.indexOf("❤️‍🩹")==0 || body.indexOf("💓")==0 || body.indexOf("💕")==0 || body.indexOf("💝")==0) {
+	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("🌸")==0 || body.indexOf("💚")==0 || body.indexOf("❤️")==0 || body.indexOf("❤️‍🩹")==0 || body.indexOf("💓")==0 || body.indexOf("💕")==0 || body.indexOf("💝")==0) {
 		var msg = {
-				body: "নারী তুমি অভিনয়ের মঞ্চ কাপানো নৃত্য শিল্পী আর আমি ভিড়ের মাঝে হারিয়ে যাওয়া এক দর্শক মাত্র🖤🥀",
+				body: "ভালোবাসা সুন্দর🖤🥀",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
