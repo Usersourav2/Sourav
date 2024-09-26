@@ -67,7 +67,7 @@ ____________________________________
 সৌরভ_কে নক করতে পারেন 
 👉FB link: https://www.facebook.com/profile.php?id=100075964867229
 -
-`, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_1720122795185792.mp4")}, threadID));
+`, attachment: fs.createReadStream(__dirname + "/Nayan/join/InShot_20240409_203230413.mp4")}, threadID));
 })
 .catch(error => {
     console.error(error);
