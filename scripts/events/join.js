@@ -54,23 +54,20 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("চলে এসেছি আমি বস সৌরভ ভাইয়ের 𝐁𝐎𝐓 তোমাদের মাঝে😎🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} 𝐂𝐎𝐍𝐍𝐄𝐂𝐓𝐄𝐃«\n\n𝐍𝐎𝐌𝐎𝐒𝐊𝐀𝐑🙏🏻☘️
+    return api.sendMessage("ওহ্ May God এটা আমি কোই আসলাম,আর কে আমাকে এড দিচে, আচ্ছা আমি তো বস সৌরভ কে ছাড়া আর কাওকে চিনি না, আর গ্রুপ এর সব গুলাই আমার কলিজা নতুন হোক না কেনো, সবাই একটু পরিচয় দেও না plz !!🤍🌸🤭!!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-𝐒𝐎𝐔𝐑𝐀𝐕-𝐁𝐎𝐓 𝐂𝐎𝐍𝐍𝐄𝐓𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐅𝐔𝐋😎 !!! 
+𝚂𝙾𝚄𝚁𝙰𝚅_BOT CONNECTED SUCCESFUL !!!
 
-𝐀𝐏𝐏𝐑𝐎𝐕𝐀𝐋 𝐀𝐋𝐋𝐎𝐖 𝐈𝐍 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏 !!!
-<------------------------------>\n\n𝐓𝐎 𝐕𝐈𝐄𝐖 𝐀𝐍𝐘 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐔𝐒𝐄 👉${global.config.PREFIX}𝐡𝐞𝐥𝐩\n𝐒𝐞𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝👉 ${global.config.PREFIX}𝐜𝐨𝐦𝐦𝐚𝐧𝐝
-\n\𝐄𝐗𝐀𝐌𝐏𝐋𝐄:👇\n${global.config.PREFIX}𝐚𝐝𝐦𝐢𝐧 (𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧)\n${global.config.PREFIX}𝐢𝐬𝐥𝐚𝐦 (𝐯𝐢𝐝𝐞𝐨)\n${global.config.PREFIX}𝐭𝐢𝐤 (𝐥𝐢𝐧𝐤)\n${global.config.PREFIX}𝐟𝐛𝐯𝐢𝐝𝐞𝐨 (𝐥𝐢𝐧𝐤)
-<------------------------------>
-𝐀𝐍𝐃 𝐅𝐎𝐑 𝐀𝐍𝐘 𝐂𝐎𝐌𝐏𝐋𝐀𝐈𝐍𝐓𝐒 𝐎𝐑 𝐂𝐎𝐍𝐓𝐀𝐂𝐓 𝐁𝐎𝐓 𝐎𝐏𝐄𝐑𝐀𝐓𝐎𝐑 
-
-𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑: 𝐒𝐎𝐔𝐑𝐀𝐕 𝐍𝐀𝐓𝐇 
-
-🟣𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐀𝐂𝐂𝐎𝐔𝐍𝐓 𝐋𝐈𝐍𝐊: https://www.facebook.com/profile.php?id=100075964867229
-
-🔵𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐍𝐔𝐌𝐁𝐄𝐑: wa.me/+8801880962478
-
-🟢𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐄𝐌𝐀𝐈𝐋: sourabnath@gmail.com`, attachment: fs.createReadStream(__dirname + "/Nayan/join/InShot_20240409_203230413.mp4")}, threadID));
+adding in the group chat successfully!!!
+😈 কিরে বাঁদর গুলা শয়তানি করার জন্য অ্যাড দিছস 😈
+____________________________________\n\nযেকোনো কমান্ড দেখতে ${global.config.PREFIX}help ব্যবহার করুন
+\n\উদাহারণ:\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info
+____________________________________
+যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS 
+সৌরভ_কে নক করতে পারেন 
+👉FB link: https://www.facebook.com/profile.php?id=100075964867229
+-
+`, attachment: fs.createReadStream(__dirname + "/Nayan/join/received_1720122795185792.mp4")}, threadID));
 })
 .catch(error => {
     console.error(error);
@@ -159,7 +156,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `স্বাগতম আপনাকে🌺 🥀༊🤗😻🤗 {name}  😍.\n\n🌸༊🥀۞Wellcome-!!-🌻🥀 To {threadName}\n{type} You are the {soThanhVien} member of this group🌻.\n\n𝄞❤️⋆⃝⑅⑅⃝•BOT OWNER♥🖤 𝐒𝐎𝐔𝐑𝐀𝐕 𝐍𝐀𝐓𝐇 ❤️😇Never Try To Spam Here🚫\n\n 『𝐒𝐎𝐔𝐑𝐀𝐕 𝐍𝐀𝐓𝐇🤍』\n\n🥰 Follow Our Group Rules✅\n\n🤖 Hi I'm  messenger bot use '/help' to see command 🤖."\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `নমস্কার 🌺 🥀༊🤗😻🤗 {name}  😍.\n\n🌸༊🥀۞Wellcome-!!-🌻🥀 To {threadName}\n{type} You are the {soThanhVien} member of this group🌻.\n\n𝄞❤️⋆⃝⑅⑅⃝•BOT OWNER♥🖤 𝚂𝙾𝚄𝚁𝙰𝚅 𝙽𝙰𝚃𝙷 ❤️😇Never Try To Spam Here🚫\n\n 『𝚂𝙾𝚄𝚁𝙰𝚅 𝙽𝙰𝚃𝙷♥』\n\n🥰 Follow Our Group Rules✅\n\n🤖 Hi I'm  messenger bot use '/help' to see command 🤖."\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
@@ -180,4 +177,4 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
       }
     } catch (e) { return console.log(e) };
   }
-  }
+      }
