@@ -24,9 +24,9 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("Love")==0 || body.indexOf("❤️‍🔥")==0 || body.indexOf("💌")==0 || body.indexOf("💘")==0 || body.indexOf("💟")==0 || body.indexOf("I love u")==0 || body.indexOf("I love")==0 || body.indexOf("valobashi")==0 || body.indexOf("💖")==0 || body.indexOf("🖤")==0) {
+	if (body.indexOf("Love")==0 || body.indexOf("🤍")==0 || body.indexOf("💌")==0 || body.indexOf("💘")==0 || body.indexOf("💟")==0 || body.indexOf("I love u")==0 || body.indexOf("I love")==0 || body.indexOf("valobashi")==0 || body.indexOf("💖")==0 || body.indexOf("🖤")==0) {
 		var msg = {
-				body: "ভালোবাসা সুন্দর যদি কারো মায়ায় না পড় 🌸🖤",
+				body: "নারী তুমি অভিনয়ের মঞ্চ কাপানো নৃত্য শিল্পী আর আমি ভিড়ের মাঝে হারিয়ে যাওয়া এক দর্শক মাত্র🌸🖤",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
